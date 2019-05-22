@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+	
+草率的课程表（部分功能待增加 
+05/12）	
+<meta charset="utf-8">
+<title>
+</title>
+</head>
+
+<body>
+	<h1 align="center">
+		KCB o f y u 
+		</h1>
+	<table cellspacing="0" 
+style="color:cyan;  font-size:14px; font-weight:bold; margin-left:220px; width:1080px; height:400px;text-align:center">
+   <tr  bgcolor="SteelBlue"   style=" width:70px;height:50px" >
+      <th  style=" width:50px;"></th>
+      <th  onmouseover="mOver(this)" 
+           onmouseout="mOut(this)" 
+		  style=" width:188px;">Mon</th> 
+	   <script>
+function mOver(obj)
+{
+obj.innerHTML="周&nbsp;&nbsp;&nbsp;一"
+}
+
+function mOut(obj)
+{
+obj.innerHTML="Mon"
+}
+</script>
+      <th  onmouseover="mOver1(this)" 
+           onmouseout="mOut1(this)"style=" width:188px;">Tue </th>
+	   	   <script>
+function mOver1(obj)
+{
+obj.innerHTML="周&nbsp;&nbsp;&nbsp;二"
+}
+
+function mOut1(obj)
+{
+obj.innerHTML="Tue"
+}
+</script>
+      <th  onmouseover="mOver2(this)" 
+           onmouseout="mOut2(this)"style=" width:188px;">Wed</th>
+	   	   	   <script>
+function mOver2(obj)
+{
+obj.innerHTML="周&nbsp;&nbsp;&nbsp;三"
+}
+
+function mOut2(obj)
+{
+obj.innerHTML="Wed"
+}
+</script>
+	  <th  onmouseover="mOver3(this)" 
+           onmouseout="mOut3(this)"style=" width:188px;">Thu</th> 
+	   <script>
+function mOver3(obj)
+{
+obj.innerHTML="周&nbsp;&nbsp;&nbsp;四"
+}
+
+function mOut3(obj)
+{
+obj.innerHTML="Thu"
+}
+</script>
+      <th  onmouseover="mOver4(this)" 
+           onmouseout="mOut4(this)"style=" width:188px;">Fri</th>   
+	   <script>
+function mOver4(obj)
+{
+obj.innerHTML="周&nbsp;&nbsp;&nbsp;五"
+}
+
+function mOut4(obj)
+{
+obj.innerHTML="Fri"
+}
+</script>
+		</tr>
+  <tr>
+      <th onmouseover="Mover(this)" 
+           onmouseout="Mout(this)"bgcolor="snow">8</br>:</br>20</th>
+	  <script>
+function Mover(obj)
+{
+obj.innerHTML="第一节"
+}
+-
+function Mout(obj)
+{
+obj.innerHTML="8:20"
+}
+</script>
+      <td bgcolor="LightBlue">web</td> 
+      <td bgcolor="DarkViolet">英语</td>  
+      <td bgcolor="Thistle">管信</td>
+      <td bgcolor="Pink">数据库</td> 
+	  <td bgcolor="1ea27e">none</td> 
+      </tr>
+  <tr>
+      <th bgcolor="snow">10</br>:</br>20</th>
+      <td bgcolor="SlateBlue">毛概</td> 
+         <td bgcolor="DarkOrange">管科</td>  
+      <td bgcolor="SlateBlue"> 毛概 </td>
+	  <td bgcolor="DarkOrange">管科</td> 
+      <td bgcolor="224071">运管</td> 
+     </tr>
+  <tr>
+      <th bgcolor="snow">14</br>:</br>00</th>
+      <td bgcolor="Thistle">管信</td> 
+         <td bgcolor="purple">形政</td>  
+      <td bgcolor="Chocolate">会计</td>
+	  <td bgcolor="1ea27e">none</td> 
+      <td bgcolor="SlateBlue">毛概</td> 
+     </tr>
+  <tr>
+      <th bgcolor="snow">16</br>:</br>00</th>
+      <td bgcolor="e91e6f">电商</td> 
+      <td bgcolor="Pink">数据库</td>  
+      <td bgcolor="1ea27e">none</td>
+	  <td bgcolor="Chocolate">会计</td> 
+      <td bgcolor="1ea27e">none</td> 
+     </tr>		
+ </table>   
+
+</body>
+</html>
